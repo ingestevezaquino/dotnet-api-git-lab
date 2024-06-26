@@ -17,5 +17,12 @@ namespace dotnet_api_git_labs.Controllers
         {
             return Ok("Test funciona correctamente!");
         }
+
+        [HttpGet]
+        [Route("GetRociosLove")]
+        public IActionResult GetRocio()
+        {
+            return Ok("Obtener el amor de Rocio!");
+        }
     }
 }
